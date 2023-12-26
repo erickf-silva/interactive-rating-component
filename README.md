@@ -1,6 +1,6 @@
 # Frontend Mentor | Interactive rating component
 
-Esta é uma solução para o desafio [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
+Esta é uma solução para o desafio [Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
 
 ## Índice
 
@@ -29,9 +29,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Desafio do Frontend Mentor: [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
-
-- Link do projeto: [Visualizar projeto](https://erickf-silva.github.io/app-gerador-de-conselhos/)
+- Desafio do Frontend Mentor: [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
+- Link do projeto: [Visualizar projeto](https://erickf-silva.github.io/interactive-rating-component/)
 
 ### Construído com
 
