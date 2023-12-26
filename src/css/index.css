@@ -1,0 +1,117 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    margin: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main-container,
+.thank-you {
+    background: linear-gradient(to bottom, hsl(213, 19%, 18%), hsl(214, 22%, 13%));
+    padding: 1.5rem;
+    border-radius: 1.6rem;
+    max-width: 410px;
+}
+
+.main-container img {
+    background-color: hsl(213, 20%, 22%);
+    padding: 0.9rem;
+    border-radius: 50%;
+}
+
+.main-container h2 {
+    color: #fff;
+    margin: 2rem 0 1rem;
+}
+
+.main-container p {
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 1rem;
+}
+
+.main-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.main-container ul li button {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    background-color: hsl(213, 20%, 22%);
+    color: hsl(217, 12%, 63%);
+    padding-top: 0.2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main-container ul li button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+}
+
+.main-container ul li button:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: #fff;
+}
+
+.btn-submit, .btn-rate-again {
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+    width: 100%;
+    padding: 0.8rem 0 0.6rem;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-submit:hover, .btn-rate-again:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.thank-you img {
+    display: block;
+    margin: 1rem auto 1.8rem;
+}
+
+.thank-you .paragraph {
+    font-size: 0.9rem;
+    background-color: hsl(213, 20%, 22%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 30px;
+    padding: 0.2rem 0.5rem 0;
+    margin-bottom: 2rem;
+}
+
+.thank-you h2 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.thank-you p {
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 2rem;
+}
+
+.hidden {
+    display: none;
+}
